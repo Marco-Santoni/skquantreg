@@ -1,9 +1,7 @@
 # Dev/Deployment
-sphinx
-sphinx_rtd_theme
 nose
 coverage
-pypi-publisher
+twine
 scikit-learn==0.19.1
 statsmodels==0.9.0
 scipy==1.1.0

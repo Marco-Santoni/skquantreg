@@ -1,16 +1,14 @@
-Scikit wrapper for quantreg
-===============================
+# Scikit wrapper for quantreg
+
 
 version number: 0.0.1
 author: Marco Santoni
 
-Overview
---------
+## Overview
 
 Scikit wrapper for quantreg
 
-Installation / Usage
---------------------
+## Installation / Usage
 
 To install use pip:
 
@@ -37,13 +35,3 @@ model = QuantileRegressor(q=0.5)
 model.fit(X, y)
 model.predict(X_test)
 ```
-    
-Contributing
-------------
-
-TBD
-
-Example
--------
-
-TBD
