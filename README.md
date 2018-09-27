@@ -1,24 +1,28 @@
-# Scikit wrapper for quantreg
+Scikit wrapper for quantreg
+============================
 
-
-version number: 0.0.1
 author: Marco Santoni
 
-## Overview
+Overview
+----------------------------
 
 Scikit wrapper for quantreg
 
-## Installation / Usage
+Installation / Usage
+----------------------------
 
 To install use pip:
 
-    $ pip install skquantreg
-
+```
+$ pip install skquantreg
+```
 
 Or clone the repo:
 
+```
     $ git clone https://github.com/Marco-Santoni/skquantreg.git
     $ python setup.py install
+```
 
 Usage:
 
