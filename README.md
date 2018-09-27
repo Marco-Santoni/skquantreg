@@ -1,11 +1,6 @@
 Scikit wrapper for quantreg
 ============================
 
-author: Marco Santoni
-
-Overview
-----------------------------
-
 Scikit wrapper for quantreg
 
 Installation / Usage
@@ -27,7 +22,7 @@ Or clone the repo:
 Usage:
 
 ```
-from skquantreg.quantreg import QuantileRegressor
+from skquantreg import QuantileRegressor
 import numpy as np
 
 
