@@ -22,6 +22,7 @@ setup(
     version=__version__,
     description='Scikit wrapper for quantreg',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/Marco-Santoni/skquantreg',
     download_url='https://github.com/Marco-Santoni/skquantreg/tarball/' + __version__,
     license='BSD',
