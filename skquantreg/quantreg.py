@@ -13,7 +13,7 @@ class QuantileRegressor(BaseEstimator, RegressorMixin):
             y,
             smapi.add_constant(X)
         )
-        self.model_result_ = self.model_.fit()
+        self.model_result_ = self.model_.fit(q=self.q)
         return self
 
     def predict(self, X):
